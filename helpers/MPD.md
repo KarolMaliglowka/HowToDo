@@ -9,26 +9,34 @@
 - [Aplikacje do obsługi](#aplikacje-do-obsługi)
 
 ### utworzenie katalogów
-     z playlistą i plikami
-	- uprawnienia 7777
+    z playlistą i plikami
+- uprawnienia 7777
 
 ### instalacja 
-    (Ubuntu server)
+(Ubuntu server)
 
-	sudo apt update
-	sudo apt install mpd
+sudo apt update
+sudo apt install mpd
 
 ### instalacja dodatków 
-    - lame
+- lame
 
-	sudo apt update
-	sudo apt install lame
+sudo apt update
+sudo apt install lame
 
 ### konfiguracja serwera
 
 
-	sudo nano /etc/mpd.conf
+sudo nano /etc/mpd.conf
 
+wybranie drugiej karty muzycznej
+
+``` bash
+aplay -l
+```
+w konfiguracji
+
+"hw: 0:0" pierwsza wartość to hardware, druga karta, trzecia urządzenie na karcie
 
 
 
