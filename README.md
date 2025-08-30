@@ -1,1 +1,1 @@
-[MPD](MPD.md)
+[MPD](helpers/MPD.md)
